@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "dt GPT",
+    "description": "Dump GPT from Dataturd",
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "version": "1.0",
+    "permissions": [
+        "sidePanel", "tabs"
+    ],
+    "side_panel": {
+        "default_path": "panel.html"
+    },
+    "action": {
+        "default_title": "Click to open panel"
+    },
+    "icons": {
+        "128": "icon-128.png"
+    }
+}
